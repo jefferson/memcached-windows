@@ -21,7 +21,7 @@ Reference: https://commaster.net/content/installing-memcached-windows
 
 # Install version < 1.4.5
 
-1. c:\memcached\memcached.exe -d install
+- c:\memcached\memcached.exe -d install
 
 # Start and Stop
 - c:\memcached\memcached.exe -d start
