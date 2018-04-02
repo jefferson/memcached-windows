@@ -21,25 +21,25 @@ http://downloads.northscale.com/memcached-1.4.5-amd64.zip
 
 Reference: https://commaster.net/content/installing-memcached-windows
 
-#Install version < 1.4.5
+# Install version < 1.4.5
 
 1. c:\memcached\memcached.exe -d install
 
-#Start and Stop
+# Start and Stop
 c:\memcached\memcached.exe -d start
 c:\memcached\memcached.exe -d stop
 
 #Windows Service
 "c:\memcached\memcached.exe" -d runservice -m 512
 
-#Uninstall
+# Uninstall
 c:\memcached\memcached.exe -d uninstall
 
-#Install version >= 1.4.5
+# Install version >= 1.4.5
 
 1. schtasks /create /sc onstart /tn memcached /tr "'c:\memcached\memcached.exe' -m 512"
 
-#Uninstall
+# Uninstall
 1. schtasks /delete /tn memcached
 
 
