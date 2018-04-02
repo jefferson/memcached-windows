@@ -12,14 +12,14 @@ Reference: (https://memcached.org/)
 
 There are two major sources for the pre-built windows binary: Jellycan and Northscale, and both versions can be used. The following are the download links for the memcached windows binaries:
 
-http://code.jellycan.com/files/memcached-1.2.5-win32-bin.zip
-http://code.jellycan.com/files/memcached-1.2.6-win32-bin.zip
-http://downloads.northscale.com/memcached-win32-1.4.4-14.zip
-http://downloads.northscale.com/memcached-win64-1.4.4-14.zip
-http://downloads.northscale.com/memcached-1.4.5-x86.zip
-http://downloads.northscale.com/memcached-1.4.5-amd64.zip
+- http://code.jellycan.com/files/memcached-1.2.5-win32-bin.zip
+- http://code.jellycan.com/files/memcached-1.2.6-win32-bin.zip
+- http://downloads.northscale.com/memcached-win32-1.4.4-14.zip
+- http://downloads.northscale.com/memcached-win64-1.4.4-14.zip
+- http://downloads.northscale.com/memcached-1.4.5-x86.zip
+- http://downloads.northscale.com/memcached-1.4.5-amd64.zip
 
-Reference: https://commaster.net/content/installing-memcached-windows
+- Reference: https://commaster.net/content/installing-memcached-windows
 
 # Install version < 1.4.5
 
