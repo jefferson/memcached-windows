@@ -24,21 +24,21 @@ Reference: https://commaster.net/content/installing-memcached-windows
 1. c:\memcached\memcached.exe -d install
 
 # Start and Stop
-c:\memcached\memcached.exe -d start
-c:\memcached\memcached.exe -d stop
+- c:\memcached\memcached.exe -d start
+- c:\memcached\memcached.exe -d stop
 
 # Windows Service
-c:\memcached\memcached.exe" -d runservice -m 512
+- c:\memcached\memcached.exe" -d runservice -m 512
 
 # Uninstall
-c:\memcached\memcached.exe -d uninstall
+- c:\memcached\memcached.exe -d uninstall
 
 # Install version >= 1.4.5
 
-1. schtasks /create /sc onstart /tn memcached /tr "'c:\memcached\memcached.exe' -m 512"
+- schtasks /create /sc onstart /tn memcached /tr "'c:\memcached\memcached.exe' -m 512"
 
 # Uninstall
-1. schtasks /delete /tn memcached
+- schtasks /delete /tn memcached
 
 # Clients
 
