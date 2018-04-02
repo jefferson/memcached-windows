@@ -27,8 +27,8 @@ Reference: https://commaster.net/content/installing-memcached-windows
 c:\memcached\memcached.exe -d start
 c:\memcached\memcached.exe -d stop
 
-#Windows Service
-"c:\memcached\memcached.exe" -d runservice -m 512
+# Windows Service
+c:\memcached\memcached.exe" -d runservice -m 512
 
 # Uninstall
 c:\memcached\memcached.exe -d uninstall
