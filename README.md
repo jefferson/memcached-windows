@@ -40,4 +40,10 @@ c:\memcached\memcached.exe -d uninstall
 # Uninstall
 1. schtasks /delete /tn memcached
 
+#Clientes
+
+- .Net in C#:
+-- Repository: https://github.com/enyim/EnyimMemcached
+-- Nuget: https://www.nuget.org/packages/EnyimMemcached/
+
 
