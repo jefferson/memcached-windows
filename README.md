@@ -1,6 +1,4 @@
-# memcached-windows
-How to install
-
+# Memcached-windows
 What is Memcached?
 Free & open source, high-performance, distributed memory object caching system, generic in nature, but intended for use in speeding up dynamic web applications by alleviating database load.
 
@@ -19,7 +17,7 @@ There are two major sources for the pre-built windows binary: Jellycan and North
 - http://downloads.northscale.com/memcached-1.4.5-x86.zip
 - http://downloads.northscale.com/memcached-1.4.5-amd64.zip
 
-- Reference: https://commaster.net/content/installing-memcached-windows
+Reference: https://commaster.net/content/installing-memcached-windows
 
 # Install version < 1.4.5
 
